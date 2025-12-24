@@ -1,0 +1,69 @@
+===============================
+TEST CASE 1: INVALID (NON-NUMERIC INPUT)
+===============================
+
+Enter student name: bn
+Enter marks (0-100): dg
+Invalid input. Please enter numeric marks only.
+Enter marks (0-100): eff
+Invalid input. Please enter numeric marks only.
+Enter marks (0-100): dwf
+Invalid input. Please enter numeric marks only.
+Enter marks (0-100): 5
+
+📊 RESULT FOR BN:
+Marks: 5/100
+Grade: F
+Message: Don't give up. Learn from mistakes and try again!
+
+
+===============================
+TEST CASE 2: INVALID (OUT OF RANGE)
+===============================
+
+Enter student name: priya
+Enter marks (0-100): 120
+Invalid marks. Please enter marks between 0 and 100.
+Enter marks (0-100): -10
+Invalid marks. Please enter marks between 0 and 100.
+Enter marks (0-100): 85
+
+📊 RESULT FOR PRIYA:
+Marks: 85/100
+Grade: B
+Message: Very Good! Keep it up!
+
+
+===============================
+TEST CASE 3: VALID INPUT
+===============================
+
+Enter student name: rahul
+Enter marks (0-100): 94
+
+📊 RESULT FOR RAHUL:
+Marks: 94/100
+Grade: A
+Message: Excellent work! Outstanding performance!
+
+
+===============================
+TEST CASE 4: BOUNDARY VALUES
+===============================
+
+Enter student name: neha
+Enter marks (0-100): 0
+
+📊 RESULT FOR NEHA:
+Marks: 0/100
+Grade: F
+Message: Don't give up. Learn from mistakes and try again!
+
+
+Enter student name: amit
+Enter marks (0-100): 100
+
+📊 RESULT FOR AMIT:
+Marks: 100/100
+Grade: A
+Message: Excellent work! Outstanding performance!
